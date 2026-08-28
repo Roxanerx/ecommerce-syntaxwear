@@ -1,0 +1,79 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="SyntaxWear: moda urbana, conforto e atitude.">
+  <title>SyntaxWear</title>
+  <link rel="stylesheet" href="css/Base.css">
+  <link rel="stylesheet" href="css/Layout.css">
+  <link rel="stylesheet" href="Componentes/Header.css">
+  <link rel="stylesheet" href="Componentes/Hero.css">
+  <link rel="stylesheet" href="Componentes/Product-card.css">
+  <link rel="stylesheet" href="Componentes/Product-grid.css">
+  <link rel="stylesheet" href="Componentes/Painel.css">
+  <link rel="stylesheet" href="Componentes/Newsletter.css">
+  <link rel="stylesheet" href="Componentes/Footer.css">
+</head>
+<body>
+  <header class="site-header">
+    <div class="container">
+      <a class="site-header__logo" href="Index.html" aria-label="SyntaxWear - início">SyntaxWear</a>
+      <nav aria-label="Navegação principal">
+        <a href="#destaque">Destaques</a>
+        <a href="#produtos">Produtos</a>
+        <a href="#newsletter">Newsletter</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero" id="destaque" aria-labelledby="hero-title">
+      <div class="container">
+        <p class="eyebrow">Nova coleção</p>
+        <h1 id="hero-title">Vista sua próxima versão.</h1>
+        <p>Peças essenciais para uma rotina em movimento.</p>
+        <a class="button" href="#produtos">Explorar produtos</a>
+      </div>
+    </section>
+
+    <section class="section" id="produtos" aria-labelledby="products-title">
+      <div class="container">
+        <div class="section-heading">
+          <p class="eyebrow">Curadoria SyntaxWear</p>
+          <h2 id="products-title">Peças em destaque</h2>
+        </div>
+        <div class="product-grid">
+          <article class="product-card">
+            <div class="product-card__media" aria-hidden="true"></div>
+            <h3>Moletom Essential</h3>
+            <p>R$ 249,90</p>
+          </article>
+          <article class="product-card">
+            <div class="product-card__media" aria-hidden="true"></div>
+            <h3>Camiseta Core</h3>
+            <p>R$ 119,90</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="newsletter" id="newsletter" aria-labelledby="newsletter-title">
+      <div class="container">
+        <h2 id="newsletter-title">Receba novidades</h2>
+        <form class="newsletter__form">
+          <label for="email">Seu melhor e-mail</label>
+          <input id="email" name="email" type="email" autocomplete="email" required>
+          <button class="button" type="submit">Assinar</button>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <p>&copy; 2026 SyntaxWear. Todos os direitos reservados.</p>
+    </div>
+  </footer>
+</body>
+</html>
