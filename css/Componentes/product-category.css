@@ -1,9 +1,9 @@
 /*product-category.css*/
 .categories-section{
-    padding: 40px clamp(16px, 3vw, 48px);
+    padding: 40px 0 20px;
     display: grid;
     grid-template-columns: repeat(4, minmax(0, 1fr));
-    gap: 30px;
+    gap: 16px;
 }
 
 .category-card{
